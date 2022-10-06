@@ -1,0 +1,19 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: lightseagreen;
+}
+
+.evenrow {
+    background-color: gainsboro;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
