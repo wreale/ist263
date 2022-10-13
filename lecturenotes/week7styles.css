@@ -1,0 +1,33 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a:visited{
+    color:#8138ff;
+}
+
+a:hover{
+    color:#bc95ff;
+    transition: 0.3s;
+}
+
+body{
+    background-color:#1c1c1c;
+}
+
+p{
+    color:#ffffff;
+    background-image:url(../images/stars.jpeg);
+}
+
+.second{
+    border: 2px solid #8138ff;
+    margin: 20px;
+    padding: 30px;
+}
+
+.second:hover{
+    border: 2px solid #bc95ff;
+    transition: 0.5s
+}
+
