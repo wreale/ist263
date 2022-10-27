@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 5px;
+        }
+        .nav1, .nav2, .nav3, .social {
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+        }
+
+        .nav1 {
+            justify-content: flex-end;
+        }
+
+        .nav2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: space-around;
+        }
+
+        .parentflexbox {
+            background-color: #000000;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- nav on the right -->
+    <div class="nav1">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <!-- nav space around -->
+    <div class="nav2">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <!-- nested flex boxes -->
+    
+
+    
+
+    <div class="parentflexbox">
+        
+        <div>
+            <div class="nav3">
+                <div>Home</div>
+                <div>About Us</div>
+                <div>Products</div>
+                <div>Contact</div>
+            </div>
+        </div>
+
+        <div>
+            <div class="social">
+                <div>Facebook</div>
+                <div>Twitter</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
