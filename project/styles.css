@@ -2,15 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 
-#makeup {
-    width: 350px;
-}
-
-#shoplogo {
-    height: auto;
-    max-width: 100%;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EEEDE7;
