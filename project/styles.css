@@ -1,13 +1,23 @@
-.imagetemp {
-    width: 20%;
+html {
+    scroll-behavior: smooth;
+  }
+
+#bags {
+    max-width: 100%;
+}
+
+#makeup {
+    width: 350px;
+}
+
+#shoplogo {
+    width: 300px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EEEDE7;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
 }
 
 .maincontent {
@@ -26,6 +36,18 @@ body {
     border-radius: 10px;
     transition: 0.5s;
 }
+
+.bottombutton {
+    background-color: #011632;
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.5s;
+}   
 
 .button:hover {
     background-color: #04AA6D;
@@ -75,8 +97,10 @@ body {
 
 .largetextandimage {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .textandbutton p {
@@ -94,19 +118,59 @@ body {
 .homeimage {
     flex: 5;
     margin: auto;
+    margin-top: 50px;
 }
 
 .homeimage img {
-    width: 650px;
     border-radius: 10px;
 }
 
 .startingsteps{
     display: flex;
-    justify-content: space-around;
+    flex: wrap;
+    margin-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.startingsteps img {
+    border-radius: 20px;
+
+}
+
+.steptitle {
+    color: #04AA6D;
+    font-size: 1.3em;
 }
 
 .stepsimage {
-    background-color: aqua;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.stepstext {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.footerrow{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0cfca;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+
 }
 
