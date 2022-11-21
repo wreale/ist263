@@ -42,7 +42,7 @@ a {
 }   
 
 .button:hover {
-    background-color: #04AA6D;
+    background-color: #007b27;
     box-shadow: 1px 10px 30px 0px rgba(0,0,0,0.14);
     transition: 0.5s;
 
@@ -58,7 +58,7 @@ a {
 }
 
 .navigation h1 {
-    color: #04AA6D
+    color: #007b27
 }
 
 .links {
@@ -84,7 +84,7 @@ a {
 }
 
 .links #active {
-    background-color: #04AA6D;
+    background-color: #007b27;
   }
 
 .largetextandimage {
@@ -134,7 +134,7 @@ a {
 }
 
 .steptitle {
-    color: #04AA6D;
+    color: #007b27;
     font-size: 1.3em;
 }
 
