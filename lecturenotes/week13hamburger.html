@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <!--
+        CSS:
+        1. When page is large, no hamburger
+        2. When page is small, hamburger
+        3. When page is large, links side by side
+        4. When page is small, links stacked
+        
+        4a. When page is small, hide links
+        4b. When is page is lage, hide the x
+
+        JavaScript:
+        5. When Hamburger pressed, show the stacked nav
+        6. When X pressed, hide the stacked nav
+    -->
+    <style>
+        #hamicon {
+            display: none;
+            width: 60px;
+        }
+        #exit {
+            display: none;
+        }
+        .row {
+            display: flex;
+        }
+        @media only screen and (max-width: 800px) {
+            #hamicon {
+                display: block;
+            }
+            #navlinks a {
+                display: block;
+            }
+            
+            #navlinks {
+                display: none;
+            }
+
+            #exit {
+                display: block;
+            }
+        }
+    </style>
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div class="row">
+        <div>
+            <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" onclick="showNav();">
+        </div>
+        <div>
+            <p id="exit" onclick="hideNav();">X</p>
+        </div>
+    </div>
+    
+    <div id="navlinks">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</body>
+</html>
