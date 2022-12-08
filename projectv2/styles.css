@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #EEEDE7;
+    margin: 0px;
+}
+
+a {
+    color: #011632;
+}
+
+h2 {
+    color: #011632;
+}
+
+h1 {
+    color: #007b27;
+    font-size: 48px;
+}
+
+.blurb {
+    font-size: 14px;
+}
+
+.maincontent {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.articlecontent {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.button {
+    background-color: #011632;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.bottombutton {
+    background-color: #011632;
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: 0.5s;
+}   
+
+.button:hover {
+    background-color: #007b27;
+    box-shadow: 1px 10px 30px 0px rgba(0,0,0,0.14);
+    transition: 0.5s;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0cfca;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sitetitle {
+    display: flex;
+    padding: 20px;
+}
+
+.sitetitle img {
+    width: 50px;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.sitetitle p {
+    color: #007b27;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.links {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links a {
+    background-color: #011632;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: #026a51;
+    transition: 0.2s;
+}
+
+.links #active {
+    background-color: #007b27;
+  }
+
+.largetextandimage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textandbutton p {
+    font-size: 2.3em;
+    font-weight: 600;
+    color: #151515;
+}
+
+.textandbutton {
+    flex: 5;
+    margin: auto;
+}
+
+.homeimage {
+    flex: 5;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.homeimage img {
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.startingsteps{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.startingsteps img {
+    border-radius: 20px;
+    max-width: 100%;
+    align-self: center;
+}
+
+.steptitle {
+    color: #007b27;
+    font-size: 1.3em;
+}
+
+.stepsimage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.stepstext {
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.endbutton {
+    background-color: #007b27;
+}
+
+.footerrow{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0cfca;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#endtext {
+    margin-top: 100px;
+}
+
+.pagetitle {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 650px) {
+    .startingsteps{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .sitetitle p {
+        font-size: 30px;
+    }
+
+    .sitetitle img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .navigation {
+        flex-direction: row-reverse;
+    }
+
+    .links a {
+        background-color: #011632;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: 90px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+}
+
+#socialmedia {
+    width: 600px;
+}
+
+#facebookads {
+    max-width: 1000px;
+}
+
+#influencer {
+    width: 100px;
+}
+
+#tiktokphone {
+    width: 100px;
+}
+
