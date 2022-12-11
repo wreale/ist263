@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullfilment</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <h1>Ecommerce Guide</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="marketing.html">Marketing</a>
-        <a href="fullfilment.html">Fullfilment</a>
-    </nav>
+    <div class="navigation">
+        <div class="sitetitle">
+            <img src="images/boxlogo.png">
+            <p>Ecommerce Guide</p>
+        </div>
 
-    <h1>Fullfilment</h1>
-    <p> Now that you’ve successfully started marketing your product, this hopefully means you have orders to 
+        <div class="links">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="marketing.html">Marketing</a>
+                <a href="fullfilment.html" id="active">Fullfilment</a>
+            </nav>
+        </div>
+    </div>
+    <div class="articlecontent">
+    <main>
+    <h1 class="pagetitle">Fullfilment</h1>
+    <p id="blurb"> Now that you’ve successfully started marketing your product, this hopefully means you have orders to 
         fulfil. There are three main ways to get your product to your customer. As your business grows, consider 
         moving to the next style of fulfillment. Each fulfillment strategy is arguably better than the last, for both 
         yourself as well as your customer’s needs.
     </p>
     <h2>Dropshipping</h2>
-    <img src=".//images/dropshipping.jpeg" alt="cartoon man delivering packaging through a computer monitor">
+    <img src=".//images/dropshipping.png" alt="cartoon man delivering packaging through a computer monitor" class="articleimage">
     <p>
         This is how almost every ecommerce business begins. In the past five years, dropshipping has become an 
         incredibly popular way to make money online, due to its low risk, high reward nature. However, there are 
@@ -46,7 +56,7 @@
     </p>
 
     <h2>Self-Fulfillment</h2>
-    <img src=".//images/basement.jpeg" alt="home basement filled with product boxes">
+    <img src=".//images/basement.jpg" alt="home basement filled with product boxes" class="articleimage">
     <p>
         Although this isn’t often talked about in the ecommerce space, fulfilling your orders yourself can be a great
         first step when moving away from dropshipping. Unlike dropshipping, there is more of a risk involved, and 
@@ -68,7 +78,7 @@
     </p>
 
     <h2>Third Party Logistics (3PL)</h2>
-    <img src=".//images/warehouse.jpeg" alt="workers walking through a warehouse">
+    <img src=".//images/warehouse.jpg" alt="workers walking through a warehouse" class="articleimage">
     <p>
         This final solution allows your business to scale almost indefinitely and removes almost all responsibilities 
         of fulfillment. This solution is using third party logistics. There are dozens of different services that provide 
@@ -88,5 +98,19 @@
         getting hundreds or even thousands of orders. This means no matter what size your business is, 3PL can 
         work for you. <br><br>
     </p>
+    </main>
+    </div>
+    <footer>
+        <div class="navigation">
+            <div>
+                <p>Will Reale &copy; 2022</p>
+            </div>
+            <div>
+                <nav>
+                    <p><a href="index.html">Home</a> | <a href="marketing.html">Marketing</a> | <a href="fullfilment.html">Fullfilment</a></p>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
