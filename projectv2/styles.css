@@ -41,13 +41,13 @@ h1 {
 }
 
 .maincontent {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .articlecontent {
-    margin-left: 150px;
-    margin-right: 450px;
+    margin-left: 10%;
+    margin-right: 50%;
 }
 
 .articlecontent p {
