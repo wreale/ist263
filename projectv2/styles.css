@@ -8,6 +8,20 @@ body {
     margin: 0px;
 }
 
+#skip {
+    background-color:#011632;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 2px;
+    position: absolute; /* out of page flow for layout */
+    left: -999px;
+}
+
+#skip:focus {
+    left: 10px;
+    top: 15px;
+}
+
 a {
     color: #011632;
 }
@@ -217,6 +231,10 @@ h1 {
 
 .articleimage {
     max-width: 100%;
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 650px) {
